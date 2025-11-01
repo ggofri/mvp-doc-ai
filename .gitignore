@@ -137,3 +137,42 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Project-specific
+uploads/
+data/*.sqlite
+data/*.sqlite-*
+backend/dist/
+frontend/dist/
+backend/build/
+frontend/build/
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp
+
+.specify
+specs/
+.claude
+dummy_docs/
+
+# Turbo build cache
+.turbo/
+
+# Debug and test scripts
+**/debug-*.js
+**/test-*.js
+**/*-test.js
+capture-*.sh
+*_snapshot.json
+baseline_snapshot.json
+improved_snapshot.json
+LEARNING_TEST_REPORT.md
+
+# Interview artifacts
+SPECS.md
+RUBRIC.md
+CLAUDE.md
+docs/videos/
+docs/compliance/
+docs/testing/

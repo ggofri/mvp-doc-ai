@@ -1,0 +1,20 @@
+{
+  "name": "@fuse/shared",
+  "version": "1.0.0",
+  "private": true,
+  "main": "./schemas/documentTypes.zod.ts",
+  "types": "./schemas/documentTypes.zod.ts",
+  "exports": {
+    "./schemas": "./schemas/documentTypes.zod.ts",
+    "./schemas/documentTypes.zod": "./schemas/documentTypes.zod.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  }
+}
